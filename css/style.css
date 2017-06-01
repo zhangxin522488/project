@@ -2,6 +2,19 @@
 .margin{
 	width:950px;
 }
+
+#fixed{
+	position: fixed;
+	width: 64px;
+	left: 1124px;
+	top: 80px;
+}
+#fixed img{
+	margin-top: 2px;
+}
+#fixed .i4{
+	
+}
 header{
 }
 header .margin{
@@ -65,7 +78,7 @@ nav .clear li .erji3{
 	width: 150px;
 	position: absolute;
 	display: none;
-	border: 1px solid #FF0000;
+	border: 1px solid gray;
 }
 nav .clear .li2 .erji2 {
 	width: 950px;

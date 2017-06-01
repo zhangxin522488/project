@@ -135,7 +135,7 @@ nav .clear li .erji3 ul li:hover{
 #denglu .p img{padding-top: 40px;}
 #denglu .left{
 	border-right: 2px solid #999;
-	height: 450px;
+	height: 410px;
 	float: left;
 	width: 315px;
 }
@@ -173,7 +173,7 @@ nav .clear li .erji3 ul li:hover{
 
 #denglu .center{
 	border-right: 2px solid #999;
-	height: 450px;
+	height: 410px;
 	float: left;
 	width: 315px;
 }
@@ -211,7 +211,7 @@ nav .clear li .erji3 ul li:hover{
 	border: 1px solid #000;
 }
 #denglu .right{
-	height: 450px;
+	height: 410px;
 	float: left;
 	width: 315px;
 }
@@ -227,7 +227,56 @@ nav .clear li .erji3 ul li:hover{
 	border: 1px solid #999;
 	margin-top: 30px;
 }
-
+#denglu .right .text{
+	width: 108px;
+	height: 24px;
+	margin-left: 77px;
+	margin-top: 10px;
+	border: 1px solid #999;
+}
+#denglu .right .password{
+	width: 90px;
+	height: 24px;
+	margin-top: 10px;
+	border: 1px solid #999;
+}
+#denglu .right .button{
+	width: 104px;
+	height: 24px;
+	margin-left: 10px;
+	border: 1px solid #999;
+	background: #000;
+	color: #fff;
+}
+#denglu .right p{
+	margin-top: 10px;
+	width: 210px;
+	margin-left: 75px;
+	font: 12px/20px "";
+	color: #999;
+}
+#denglu .right p a{
+	
+	font: 12px/20px "";
+	color: red;
+}
+#denglu .right .submit{
+	width: 66px;
+	height: 30px;
+	margin-left: 75px;
+	border: 1px solid #999;
+	margin-top: 10px;
+	background: #000;
+	color: #fff;
+}
+#denglu .right i{
+	display: block;
+	width: 220px;
+	font: 12px/16px "";
+	color: #999;
+	margin-left: 30px;
+	margin-top: 10px;
+}
 
 
 #friend{

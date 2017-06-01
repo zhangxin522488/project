@@ -6,7 +6,15 @@
 		<link href="css/public.css" rel="stylesheet" type="text/css">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
 	</head>
-	<body>
+	<body >
+		<div id="fixed">
+			<div class="margin">
+				<div class="i1"><a href="#"><img src="img/t01.gif"/></a></div>
+				<div class="i2"><a href="#"><img src="img/TO2.gif"/></a></div>
+				<div class="i3"><a href="#"><img src="img/T03.gif"/></a></div>
+				<div class="i4"><a href="#"><img src="img/TO4.gif"/></a></div>
+			</div>
+		</div>
 		<header class="clear">
 			<div class="margin">
 				<div id="h-l">
@@ -17,7 +25,7 @@
 					<img src="img/logo (1).jpg"></img>	
 				</div>
 				<div id="h-r">
-					<p><a href="http://127.0.0.1:8020/xiangmu/denglu.html">登录</a> / <a href="#">注册</a></p>
+					<p><a href="http://127.0.0.1:8020/xiangmu/denglu.html">登录</a> / <a href="http://127.0.0.1:8020/xiangmu/zhuce.html#">注册</a></p>
 					<p><a href="#">购物车[<b>0</b>]</a></p>
 					<input type="text" placeholder="搜索"></input>
 				</div>
@@ -26,7 +34,7 @@
 		<nav>
 			<div class="margin">
 				<ul id="menu" class="clear">
-					<li><a href="#">首页</a></li>
+					<li><a href="http://127.0.0.1:8020/xiangmu/index.html">首页</a></li>
 					<li class="li2"><a href="#">全部包邮</a>
 						<div class="erji2">
 							<ul>
@@ -365,5 +373,12 @@
 </html>
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript">
+	window.onscroll=function(event){
+		
+			$("#fixed img:nth-child(4)").css("display","block");
+		
+	}
+		
 	
 </script>
+
