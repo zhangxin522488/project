@@ -16,6 +16,9 @@ header a{
 	color: #000;
 	font: 12px/26px "";
 }
+header a:hover{
+	color: red;
+	}
 header #h-l{
 	margin-top: 4px;
 	float: left;
@@ -40,22 +43,80 @@ header #h-r input{
 	border: 1px solid #b3b3b3;
 }
 
-nav{}
-nav ul{
+nav .margin{
+	position: relative;
+	
+}
+nav .clear{
+
 	float: left;
 	padding-bottom: 22px;
 }
-nav ul li{
+nav .clear li{
+
 	float: left;
 	width: 119px;
+	
 	font: 14px/34px "";
 	text-align: center;
 	
 }
-nav ul li a{
+nav .clear li .erji3{
+	width: 150px;
+	position: absolute;
+	display: none;
+	border: 1px solid #FF0000;
+}
+nav .clear .li2 .erji2 {
+	width: 950px;
+	margin-left: -120px;
+	background: gray;
+	display: none;
+}
+nav .clear .li2:hover .erji2{
+	display: block;
+	position: absolute;
+}
+nav .clear .li2 .erji2 li a{
+	display: inline-block;width: 100px;
+}
+nav .clear .li2 .erji2 li a:hover{
+	background: #000;
+}
+nav .clear li .erji3 li{
+	width: 150px;
+	background: gray;
+	float: left;
+}
+nav .clear li .erji3 li a{
+	display: inline-block;width: 100px;
+	border-bottom: 1px solid #000;
+}
+nav .clear li:hover{
+		background: gray;
+}
+nav .clear li a{
 	color: #000;
 }
-#banner{}
+nav .clear li b{
+	display: inline-block;
+	width: 25px;
+	height: 12px;
+	border-radius: 50%;
+	background: red;
+	color: #fff;
+	font: 12px/12px "";
+	margin-top: -5px;
+}
+nav .clear li:hover a{
+	color: #fff;
+}
+nav .clear li:hover .erji3{
+	display: block;
+}
+nav .clear li .erji3 ul li:hover{
+	background: #000;
+}
 #banner #img1 img{
 	width: 950px;
 	height: 500px;
@@ -66,9 +127,6 @@ nav ul li a{
 #banner #img2 img{
 	width: 470px;
 	height: 350px;
-}
-#banner #img3{
-	
 }
 #banner #img3 ul{}
 #banner #img3 ul li{
@@ -434,6 +492,67 @@ footer span{
 	display: block;
 	font: 12px/32px "";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
