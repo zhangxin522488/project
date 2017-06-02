@@ -4,6 +4,7 @@
 }
 
 #fixed{
+	z-index: 100;
 	position: fixed;
 	width: 64px;
 	left: 1124px;
@@ -12,6 +13,9 @@
 #fixed img{
 	margin-top: 2px;
 }
+#fixed img:hover{
+	transition: 1.5s;
+	transform:scale(1.2,1.2)}
 #fixed .i4{
 	
 }
@@ -58,6 +62,7 @@ header #h-r input{
 
 nav .margin{
 	position: relative;
+	z-index: 99;
 	
 }
 nav .clear{
@@ -130,82 +135,87 @@ nav .clear li:hover .erji3{
 nav .clear li .erji3 ul li:hover{
 	background: #000;
 }
-#banner #img1 img{
+#banner{
+	width: 950px;
+	height: 500px ;
+}
+
+#banner1 #img1 img{
 	width: 950px;
 	height: 500px;
 }
-#banner #img2{
+#banner1 #img2{
 	margin-top: 10px;
 }
-#banner #img2 img{
+#banner1 #img2 img{
 	width: 470px;
 	height: 350px;
 }
-#banner #img3 ul{}
-#banner #img3 ul li{
+#banner1 #img3 ul{}
+#banner1 #img3 ul li{
 	float: left;
 	
 }
-#banner #img4{
+#banner1 #img4{
 	
 }
-#banner #img4 .i1{
+#banner1 #img4 .i1{
 	display: block;
 	float: left;
 	width: 616px;
 }
-#banner #img4 .i1 img{
+#banner1 #img4 .i1 img{
 	width: 614px;
 	height: 204px;
 	margin-bottom: 15px;
 }
-#banner #img4 .i2{
+#banner1 #img4 .i2{
 	float: right;
 }
-#banner #img4 .i2 img{
+#banner1 #img4 .i2 img{
 	width: 318px;
 	height: 425px;
 	margin-bottom: 15px;
 }
-#banner #img5 ul{
+#banner1 #img5 ul{
 	
 }
-#banner #img5 ul li{
+#banner1 #img5 ul li{
 	float: left;
 	margin: 0 0 0 14px;
 }
-#banner #img5 ul .te{
+#banner1 #img5 ul .te{
 	margin: 0px;
 }
-#banner #img5 ul li p{
+#banner1 #img5 ul li p{
 	width: 300px;
 	text-align: center;
 	
 }
-#banner #img5 ul li p a{
+#banner1 #img5 ul li p a{
 	font: 22px/54px "";
 	color: #000;
 }
-#banner #img6 ul{
+#banner1 #img6 ul{
 	
 }
-#banner #img6 ul li{
+#banner1 #img6 ul li{
 	float: left;
 	margin: 0 0 0 14px;
 }
-#banner #img6 ul .te{
+#banner1 #img6 ul .te{
 	margin: 0px;
 }
-#banner #img6 ul li p{
+#banner1 #img6 ul li p{
 	width: 227px;
 	text-align: center;
 	
 }
-#banner #img6 ul li p a{
+#banner1 #img6 ul li p a{
 	font: 22px/54px "";
 	color: #000;
 }
-#banner #img7 img{
+#banner1 #img7 img{
 	margin-top: 33px;
 }
 
